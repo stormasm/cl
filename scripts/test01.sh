@@ -12,12 +12,4 @@ function no_sysroot_tests() {
     $RUN_WRAPPER ./target/out/mini_core_hello_world abc bcd
 }
 
-
-case "$1" in
-    "no_sysroot")
-        no_sysroot_tests
-        ;;
-    *)
-        echo "unknown test suite"
-        ;;
-esac
+no_sysroot_tests
