@@ -1,23 +1,21 @@
 
 To build cranelift out of the box all you have to do is grab the repo...
 
-In the build.sh script change the top 2 settings to these...   
+at the top level of cranelift is **test.sh** have a look at that first
+just to get grounded in whats going on...
+
+If you run
 ```rust
-# Settings
-export CHANNEL="debug"
-build_sysroot="none"
+./y.rs
 ```
+
+by itself you will see the usage...
+this step is NOT NEEDED but here just for clarification.
+
+Then do this:
 
 ```rust
-./build.sh
-scripts/tests.sh no_sysroot
-```
-
-##### Legacy Notes
-
-at the top level of cranelift is *test.sh*   
-the only thing it really needs is this one line which successfully runs all of the tests.
-
-```
+./y.rs prepare
+./y.rs build --debug --sysroot none
 scripts/tests.sh no_sysroot
 ```
