@@ -2,6 +2,7 @@
 
 set -e
 
+pushd /j/tmp19/cranelift
 source build/config.sh
 source scripts/ext_config.sh
 MY_RUSTC="$RUSTC $RUSTFLAGS -L crate=target/out --out-dir target/out -Cdebuginfo=2"
