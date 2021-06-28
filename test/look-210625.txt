@@ -1,4 +1,10 @@
 
+These are all of the wasmtime tests when you run at the top level
+
+```rust
+cargo test
+```
+
 running 18 tests
 test commands::compile::test::test_unsupported_flags_compile ... ok
 test test::test_all_features ... ok
@@ -641,4 +647,3 @@ test wast::Cranelift::spec::utf8_import_module_pooling ... ok
 test wast::Cranelift::spec::stack_pooling ... ok
 
 test result: ok. 603 passed; 0 failed; 8 ignored; 0 measured; 0 filtered out; finished in 80.85s
-
