@@ -7,6 +7,6 @@
 
 ### Request for Comments [RFC]
 
-[Cranelift Backend Transition cfallin](https://github.com/bytecodealliance/rfcs/blob/main/accepted/cranelift-backend-transition.md)
-
 [Remove old Cranelift x86 backend. #12 cfallin](https://github.com/bytecodealliance/rfcs/pull/12/files)
+
+[Cranelift Backend Transition cfallin](https://github.com/bytecodealliance/rfcs/blob/main/accepted/cranelift-backend-transition.md)
