@@ -1,4 +1,8 @@
 
+February 4, 2019
+
+[Cranelift library tackles WebAssembly execution](https://www.infoworld.com/article/3338105/cranelift-library-tackles-webassembly-execution.html)
+
 ##### Gcc Frontend for Rust
 
 https://rust-gcc.github.io/
