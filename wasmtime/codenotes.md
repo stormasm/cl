@@ -19,11 +19,11 @@ rg iadd
 
 ##### Not yet sure if the generation is used but here is how to generate
 
-modify this file by hand:  
+modify this file by hand, it just needs to be changed to trigger a rebuild
 cranelift/codegen/build.rs
 
 ```rust
-cd wasmtime/cranelift/code
+cd wasmtime/cranelift/codegen
 cb
 cd target/debug/build/cranelift-codegen-1bxx
 ```
