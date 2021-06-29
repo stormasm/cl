@@ -16,7 +16,17 @@ cd wasmtime/cranelift/codegen/meta/src/isa/x86
 rg iadd
 ```
 
+
+##### Not yet sure if the generation is used but here is how to generate
+
+modify this file by hand:  
 cranelift/codegen/build.rs
+
+```rust
+cd wasmtime/cranelift/code
+cb
+cd target/debug/build/cranelift-codegen-1bxx
+```
 
 ### References
 
