@@ -1,9 +1,9 @@
 
-All of the file references in here refer to
+All of the file references in here refer to wasmtime/cranelift/codegen/src
 
-wasmtime/cranelift/codegen/src
+##### see isa/mod.rs for more details
 
-##### isa/mod.rs
+Besides the mods **is** and **machinst** these are the references...
 
 ```rust
 --- inside src
