@@ -3,7 +3,7 @@ All of the file references in here refer to wasmtime/cranelift/codegen/src
 
 ##### see isa/mod.rs for more details
 
-Besides the mods **isa** and **machinst** these are the references...
+Besides the mods **[isa and machinst]** these are the references...
 
 ```rust
 --- inside src
