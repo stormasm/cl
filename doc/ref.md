@@ -1,9 +1,7 @@
 
 [Understanding WebAssembly Text Format](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format)
 
-February 4, 2019
-
-[Cranelift library tackles WebAssembly execution](https://www.infoworld.com/article/3338105/cranelift-library-tackles-webassembly-execution.html)
+[Cranelift library tackles WebAssembly execution](https://www.infoworld.com/article/3338105/cranelift-library-tackles-webassembly-execution.html) 2/4/2019
 
 ##### Gcc Frontend for Rust
 
