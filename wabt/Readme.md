@@ -26,6 +26,14 @@ with this line of code
 SCRIPT_DIR = '/mia/wabt/'
 ```
 
+To run my own personal test suite
+
+```python
+test/rt1.py
+```
+
+To run the full test suite
+
 ```python
 test/run_tests.py
 ```
