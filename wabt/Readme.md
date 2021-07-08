@@ -35,10 +35,15 @@ with this line of code
 SCRIPT_DIR = '/mia/wabt/'
 ```
 
-In the test directory
+In the test directory **rm -fr**
 
 ```
-rm -fr wasm2c
+wasm2c [this is the only one that is mandatory]
+binary
+parse
+roundtrip
+spec
+typecheck
 ```
 
 And now all the tests should run out of the box with
