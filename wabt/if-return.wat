@@ -1,4 +1,4 @@
-;;; TOOL: wat2wasm
+;;; wt if-return.wat --invoke chk
 (module
   (func $chk (result i32)
     i32.const 0
