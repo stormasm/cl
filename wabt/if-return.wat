@@ -1,4 +1,5 @@
-;;; wt if-return.wat --invoke chk
+;; wt if-return.wat --invoke chk
+
 (module
   (func $chk (result i32)
     i32.const 0
